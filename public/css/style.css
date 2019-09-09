@@ -1,0 +1,362 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("../img/bg.jpeg") no-repeat center top;
+    background-size: cover;
+    font-family: "Quicksand", sans-serif;
+}
+
+#logo {
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+    background-color: #4285f4;
+    height: 1.7em;
+    width: 1.7em;
+    line-height: 1.7em;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+    text-align: center;
+    z-index: 2;
+    text-shadow: rgb(48, 117, 165) 0 0, rgb(48, 118, 166) 1px 1px,
+        rgb(49, 119, 168) 2px 2px, rgb(49, 120, 170) 3px 3px,
+        rgb(50, 122, 171) 4px 4px, rgb(50, 123, 173) 5px 5px,
+        rgb(51, 124, 175) 6px 6px, rgb(51, 125, 176) 7px 7px,
+        rgb(51, 126, 178) 8px 8px, rgb(52, 128, 180) 9px 9px,
+        rgb(52, 129, 181) 10px 10px, rgb(53, 130, 183) 11px 11px,
+        rgb(53, 131, 185) 12px 12px, rgb(54, 132, 186) 13px 13px,
+        rgb(54, 134, 188) 14px 14px, rgb(55, 135, 190) 15px 15px,
+        rgb(55, 136, 191) 16px 16px, rgb(56, 137, 193) 17px 17px,
+        rgb(56, 138, 195) 18px 18px, rgb(57, 140, 196) 19px 19px,
+        rgb(57, 141, 198) 20px 20px, rgb(58, 142, 200) 21px 21px,
+        rgb(58, 143, 201) 22px 22px, rgb(59, 144, 203) 23px 23px,
+        rgb(59, 146, 205) 24px 24px, rgb(60, 147, 206) 25px 25px,
+        rgb(60, 148, 208) 26px 26px, rgb(61, 149, 210) 27px 27px,
+        rgb(61, 150, 212) 28px 28px, rgb(62, 151, 213) 29px 29px,
+        rgb(62, 153, 215) 30px 30px, rgb(63, 154, 217) 31px 31px,
+        rgb(63, 155, 218) 32px 32px, rgb(64, 156, 220) 33px 33px,
+        rgb(64, 157, 222) 34px 34px, rgb(65, 159, 223) 35px 35px,
+        rgb(65, 160, 225) 36px 36px, rgb(66, 161, 227) 37px 37px,
+        rgb(66, 162, 228) 38px 38px, rgb(67, 163, 230) 39px 39px,
+        rgb(67, 165, 232) 40px 40px, rgb(68, 166, 233) 41px 41px;
+    overflow: hidden;
+}
+
+main pub_image {
+    margin-top: 43px;
+}
+
+form .avatar {
+    margin-bottom: 15px;
+    width: 55px;
+}
+
+.navbar .container-avatar,
+.pub_image .container-avatar {
+    border-radius: 55px;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+hr {
+    background: #fff;
+}
+
+h1 {
+    color: #fff;
+}
+
+.navbar .container-avatar img,
+.pub_image .container-avatar img {
+    height: 55px;
+}
+
+main,
+.card pub_image {
+    margin-top: 50px;
+}
+
+.pub_image {
+    margin-bottom: 25px;
+}
+
+.pub_image .container-avatar {
+    float: left;
+    margin-right: 15px;
+}
+
+.pub_image .data-user {
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.pub_image .data-user a {
+    color: #444;
+}
+
+.pub_image .nickname {
+    color: gray;
+}
+
+.image-container {
+    width: 100%;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.image-detail {
+    max-height: 500px;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.pub_image .card-body {
+    padding: 0px;
+}
+
+.pub_image .description {
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+.pub_image .btn-coments {
+    margin: 20px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.likes {
+    float: left;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.likes img {
+    width: 20px;
+}
+
+.pub_image_detail .comments {
+    padding: 20px;
+}
+
+.comment {
+    padding: 20px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.number_likes {
+    color: gray;
+    font-size: 11px;
+}
+
+.profile-user {
+    /* height: 100%; */
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.user-info {
+    padding-top: 56px;
+}
+
+.nickname-date {
+    color: #c5c2c7;
+}
+
+.profile-user .container-avatar {
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    width: 112px;
+    height: 157%;
+    margin-top: 28px;
+    overflow: hidden;
+    border: 5px solid #fff;
+    margin-left: 116px;
+}
+
+.home-avatar {
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    width: 112px;
+    height: 157%;
+    margin-top: 28px;
+    overflow: hidden;
+    border: 5px solid #fff;
+    margin-left: 32%;
+}
+
+.light-mode {
+    background: #fafafa !important;
+    color: #212529 !important;
+}
+
+.nickhome {
+    margin-top: 10%;
+    margin-left: -8%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.home-image {
+    width: 50%;
+}
+
+
+.div-image {
+    position: relative;
+    display: inline-block;
+
+}
+
+#image_path:before {
+	color: #fff;
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 220px;
+}
+
+#image_path {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.div-image:hover div.info-image {
+    background-color: #444;
+    margin-top: -190px;
+    margin-left: 75px;
+    opacity: 0.7;
+    padding: 10px;
+    color: #fff;
+}
+
+.info-image {
+    position: absolute;
+    overflow:hidden;
+    width: 250px;
+    height: 180px;
+    margin-top:10px;
+    opacity:0;
+    /* transition: opacity 0.3s; */
+
+}
+
+.info-photo {
+    margin-top: 53px;
+}
+
+.card-header {
+    padding: 0.75rem 0.25rem;
+}
+
+.btn-search {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+/* Style login */
+.login-box {
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.login-box .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.login-box h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.login-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-box input[type="email"],
+.login-box input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.login-box button[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #b80f22;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.login-box button[type="submit"]:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.login-box a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.login-box a:hover {
+    color: #fff;
+}
+
+.login-box .invalid-feedback {
+    margin-top: -0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+/* Fin Style login */
