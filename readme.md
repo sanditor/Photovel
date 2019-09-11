@@ -21,6 +21,20 @@
 6. Abir el navegador de su preferencia y teclear en la url: localhost:8000
 7. Crear un usuario y subir fotos, editar, comentar, dar likes, cambiar la preferencias, entre otras funcionalidades
 
+<h3 align="center">Capturas del Aplicativo</h3>
+
+## Previews
+<p align="center">
+    <img src="public/img//iniciousuario.JPG" /><br/><br/>
+    <img src="public/img/inicio.JPG" /><br/><br/>
+    <img src="public/img/config_user.JPG" /><br/><br/>
+    <img src="public/img/profile_user.JPG" /><br/><br/>
+    <img src="public/img/comentar.JPG" /><br/><br/>
+    <img src="public/img/favoritas.JPG" /><br/><br/>
+</p>
+
+<br/>
+
 ## Contributing
 
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
