@@ -1,5 +1,6 @@
-CREATE DATABASE IF NOT EXISTS Proyecto_RedSocial;
-USE Proyecto_RedSocial;
+DROP DATABASE IF EXISTS `db_red_social`;
+CREATE DATABASE IF NOT EXISTS db_red_social;
+USE db_red_social;
 
 CREATE TABLE IF NOT EXISTS users(
 id              int(255) auto_increment not null,
