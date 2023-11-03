@@ -33,9 +33,11 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
     DB_USERNAME=root
     DB_PASSWORD=
 4. Abrir la consola de windows, linux o la de su preferencia en la carpeta del proyecto descargado en el punto 1.
-5. Teclear: php artisan serve. Para ejecutar el proyecto.
-6. Abir el navegador de su preferencia y teclear en la url: localhost:8000
-7. Crear un usuario y subir fotos, editar, comentar, dar likes, cambiar la preferencias, entre otras funcionalidades
+5. Teclear: composer update. Esto para actualizar las dependencias de composer.json y crear la carpeta vendor
+6. Teclear: php artisan key:generate. Esto para generar la llave 
+7. Teclear: php artisan serve. Para ejecutar el proyecto.
+8. Abir el navegador de su preferencia y teclear en la url: localhost:8000
+9. Crear un usuario y subir fotos, editar, comentar, dar likes, cambiar la preferencias, entre otras funcionalidades
 
 <h3 align="center">Capturas del Aplicativo</h3>
 
