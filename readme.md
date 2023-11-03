@@ -37,7 +37,7 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 6. Teclear: php artisan key:generate. Esto para generar la llave 
 7. Teclear: php artisan serve. Para ejecutar el proyecto.
 8. Abir el navegador de su preferencia y teclear en la url: localhost:8000
-9. Crear un usuario y subir fotos, editar, comentar, dar likes, cambiar la preferencias, entre otras funcionalidades
+9. Registrar un usuario y subir fotos, editar, comentar, dar likes, cambiar la preferencias, entre otras funcionalidades
 
 <h3 align="center">Capturas del Aplicativo</h3>
 
